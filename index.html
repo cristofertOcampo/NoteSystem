@@ -8,9 +8,16 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+  <header>
+    <h1>Culcula tu nota final</h1>
+  </header>
+  <hr>
   <main>
     <fieldset>
+
+      <label for="txt-name">Ingrese su nombre</label>
+      <input type="text" name="txt-name" id="txt-name">
+      <hr>
       <label for="txt-note1">Ingrese la nota 1</label>
       <input type="number" name="txt-note1" id="txt-note1">
       
@@ -23,9 +30,10 @@
       <button id="btn-send">Calcular</button>
 
     </fieldset>
-
-
-    <div></div>
+    <hr>
+    <div>
+      <p id="final-note"></p>
+    </div>
 
 
   </main>
